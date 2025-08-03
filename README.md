@@ -106,34 +106,163 @@ MCP servers support three types of components:
 - **Full Auditability**: Complete visibility into all interactions
 - **Vendor Independence**: Avoid lock-in with standardized protocol
 
-## 📊 Server Categories
+## 📊 MCP Server Directory
 
-### 🌟 Top Popular Servers
-High-popularity servers (85%+ popularity rating) with proven track records.
+### 🌟 Top Popular Servers (85%+ Popularity)
 
-### ☁️ Cloud Providers
-- **AWS**: Amazon Web Services integrations and tools
-- **Google Cloud**: Google Cloud Platform services and APIs
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **BigQuery MCP** | Data Analytics | Query and analyze data in Google BigQuery with advanced analytics capabilities | 11,200 | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-bigquery) |
+| **Vertex AI MCP** | AI/ML Platform | Access Google's Vertex AI machine learning services with advanced AI capabilities | 9,800 | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-vertex-ai) |
+| **Google Drive MCP** | File Management | Access and manage Google Drive files and folders with full file operations | 8,900 | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-google-drive) |
+| **Google Calendar MCP** | Calendar Management | Manage Google Calendar events and schedules with full calendar operations | 7,600 | [GitHub](https://github.com/google/mcp-server-google-calendar) |
 
-### 🗄️ Data & Storage
-- **Database**: Database connections, queries, and management
-- **Search & Web**: Web search, scraping, and content discovery
+### ☁️ Google Cloud Servers
 
-### 🤖 AI & Development
-- **AI/ML**: Machine learning models and AI services
-- **Development**: Development tools, IDEs, and code analysis
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Cloud Spanner MCP** | Database | Query and manage Google Cloud Spanner databases with global distributed SQL | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-cloud-spanner) |
+| **CloudSQL MCP** | Database | Manage Google Cloud SQL databases with full database operations | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-cloudsql) |
+| **Cloud Storage MCP** | File Management | Access and manage Google Cloud Storage buckets and objects | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-cloud-storage) |
+| **Cloud Functions MCP** | Serverless | Deploy and manage Google Cloud Functions with serverless computing | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-cloud-functions) |
+| **Cloud Run MCP** | Container | Deploy and manage Google Cloud Run containerized applications | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-cloud-run) |
+| **Google GenAI Toolbox MCP** | AI/ML | Comprehensive Google Generative AI tools and capabilities | - | [GitHub](https://github.com/googleapis/genai-toolbox) |
 
-### 🔧 Infrastructure & Automation
-- **Infrastructure**: Infrastructure as Code (IaC) and deployment tools
-- **Browser & Automation**: Web automation and browser control
+### ☁️ AWS Servers
 
-### 📚 Research & Utilities
-- **Research**: Academic and research tools
-- **Utility**: Math, time, and utility functions
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **S3 MCP** | File Management | Access and manage Amazon S3 buckets and objects | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-s3) |
+| **DynamoDB MCP** | Database | Query and manage Amazon DynamoDB NoSQL databases | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-dynamodb) |
+| **ECS MCP** | Container | Manage Amazon ECS container orchestration | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-ecs) |
+| **EKS MCP** | Kubernetes | Manage Amazon EKS Kubernetes clusters | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-eks) |
+| **Lambda MCP** | Serverless | Deploy and manage AWS Lambda functions | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-lambda) |
+| **Bedrock MCP** | AI/ML | Access AWS Bedrock AI services and models | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-bedrock) |
+| **RDS/Aurora MCP** | Database | Manage Amazon RDS and Aurora databases | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-rds) |
+| **ECR MCP** | Container Registry | Manage Amazon ECR container registries | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-ecr) |
+| **CloudFormation MCP** | IaC | Manage AWS CloudFormation infrastructure as code | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-cloudformation) |
+| **CDK MCP** | IaC | Manage AWS CDK infrastructure as code | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-cdk) |
 
-### 📱 Social & Data Sources
-- **Social Media**: LinkedIn, Facebook, Twitter integrations
-- **Data Sources**: Confluence, Jira, and data scraping tools
+### ☁️ Microsoft Azure Servers
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Azure Blob Storage MCP** | File Management | Access and manage Azure Blob Storage containers and blobs | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-azure-blob) |
+| **Azure Functions MCP** | Serverless | Deploy and manage Azure Functions serverless computing | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-azure-functions) |
+| **Azure OpenAI MCP** | AI/ML | Access Azure OpenAI services and models | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-azure-openai) |
+| **Cosmos DB MCP** | Database | Query and manage Azure Cosmos DB databases | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-cosmos-db) |
+
+### 🗄️ Database Servers
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **PostgreSQL MCP** | Database | Query and manage PostgreSQL databases | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-postgresql) |
+| **MySQL MCP** | Database | Query and manage MySQL databases | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-mysql) |
+| **MongoDB MCP** | Database | Query and manage MongoDB NoSQL databases | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-mongodb) |
+| **Redis MCP** | Cache/Database | Access and manage Redis in-memory data store | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-redis) |
+| **Elasticsearch MCP** | Search | Search and analyze data with Elasticsearch | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-elasticsearch) |
+| **Supabase MCP** | Database | Access Supabase PostgreSQL database and real-time features | - | [GitHub](https://github.com/supabase/mcp-server-supabase) |
+
+### 🔍 Search & Web Servers
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Brave Search** | Search | Search the web using Brave Search engine | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-brave-search) |
+| **DuckDuckGo Search** | Search | Search the web using DuckDuckGo search engine | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-duckduckgo) |
+| **ArXiv** | Research | Search and access academic papers from ArXiv | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-arxiv) |
+| **DeepWiki MCP** | Research | Access Wikipedia knowledge and articles | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-deepwiki) |
+
+### 🤖 AI/ML Servers
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Ollama MCP** | AI/ML | Access local Ollama AI models and inference | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-ollama) |
+| **Pinecone Developer MCP** | Vector Database | Access Pinecone vector database for embeddings | - | [GitHub](https://github.com/pinecone-io/mcp-server-pinecone) |
+| **Vectara MCP Server** | Vector Database | Access Vectara vector database and search | - | [GitHub](https://github.com/vectara/mcp-server-vectara) |
+| **Vizro MCP** | Data Visualization | Create interactive data visualizations with Vizro | - | [GitHub](https://github.com/mckinsey/vizro) |
+| **Recraft AI MCP Server** | AI/ML | Access Recraft AI design and generation tools | - | [GitHub](https://github.com/recraft-ai/mcp-server-recraft) |
+
+### 🔧 Development & Infrastructure
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Terraform MCP** | IaC | Manage infrastructure with Terraform | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-terraform) |
+| **Ansible MCP** | Automation | Automate IT infrastructure with Ansible | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-ansible) |
+| **Git MCP** | Version Control | Manage Git repositories and operations | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-git) |
+| **GitHub MCP** | Version Control | Access GitHub repositories and workflows | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-github) |
+| **Kubernetes MCP** | Container Orchestration | Manage Kubernetes clusters and resources | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-kubernetes) |
+| **Docker MCP** | Container | Manage Docker containers and images | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-docker) |
+| **Python MCP** | Development | Execute Python code and manage environments | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-python) |
+| **OpenTofu MCP** | IaC | Manage infrastructure with OpenTofu (Terraform fork) | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-opentofu) |
+
+### 🌐 Browser & Automation
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Playwright Browser Automation** | Browser Automation | Automate web browsers with Playwright | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-playwright) |
+| **Chrome Browser Automation** | Browser Automation | Automate Chrome browser operations | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-chrome) |
+| **Windows Desktop Control** | Desktop Automation | Control Windows desktop applications | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-windows) |
+
+### 📱 Social Media & Communication
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Slack MCP** | Communication | Send messages and manage Slack workspaces | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-slack) |
+| **Discord MCP** | Communication | Send messages and manage Discord servers | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-discord) |
+
+### 📊 Business & Productivity
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Jira MCP** | Project Management | Access and manage Jira projects and issues | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-jira) |
+| **Confluence MCP** | Documentation | Access and manage Confluence pages and spaces | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-confluence) |
+| **PostHog MCP Server** | Analytics | Access PostHog product analytics and insights | - | [GitHub](https://github.com/posthog/mcp-server-posthog) |
+| **GrowthBook MCP Server** | Analytics | Access GrowthBook A/B testing and feature flags | - | [GitHub](https://github.com/growthbook/mcp-server-growthbook) |
+
+### 🔧 Utility & Tools
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Filesystem MCP** | File System | Access and manage local file system | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-filesystem) |
+| **Calculator** | Utility | Perform mathematical calculations | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-calculator) |
+| **Time Anthropic** | Utility | Get current time and date information | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-time) |
+| **Fetch Anthropic** | Utility | Fetch data from URLs and web resources | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-fetch) |
+
+### 🧠 AI & Memory
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Knowledge Graph Memory** | Memory | Store and retrieve knowledge graph data | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-knowledge-graph) |
+| **Sequential Thinking** | AI | Enable sequential reasoning and step-by-step thinking | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-sequential-thinking) |
+
+### 🆕 Emerging & Community Servers
+
+| Server Name | Type | Description | Downloads | Links |
+|-------------|------|-------------|-----------|-------|
+| **Plane MCP Server** | Project Management | Access Plane project management platform | - | [GitHub](https://github.com/plane-ai/mcp-server-plane) |
+| **Vapi MCP Server** | Voice AI | Access Vapi voice AI and conversation platform | - | [GitHub](https://github.com/vapi-ai/mcp-server-vapi) |
+| **GroundDocs MCP Server** | Documentation | Access GroundDocs documentation platform | - | [GitHub](https://github.com/grounddocs/mcp-server-grounddocs) |
+| **Jenius MCP Smart Device** | IoT | Control Jenius smart devices and IoT | - | [GitHub](https://github.com/jenius-ai/mcp-server-jenius) |
+| **PDF.co MCP Server** | Document Processing | Process and manipulate PDF documents | - | [GitHub](https://github.com/pdfco/mcp-server-pdfco) |
+| **Panther MCP Server** | Security | Access Panther security and compliance platform | - | [GitHub](https://github.com/panther-labs/mcp-server-panther) |
+| **Alibaba Cloud FC MCP Server** | Serverless | Deploy and manage Alibaba Cloud Function Compute | - | [GitHub](https://github.com/alibaba-cloud/mcp-server-fc) |
+| **Descope MCP Server** | Authentication | Access Descope authentication and user management | - | [GitHub](https://github.com/descope/mcp-server-descope) |
+| **Mailmodo MCP Server** | Email Marketing | Access Mailmodo email marketing platform | - | [GitHub](https://github.com/mailmodo/mcp-server-mailmodo) |
+| **Iaptic MCP Server** | Analytics | Access Iaptic analytics and insights | - | [GitHub](https://github.com/iaptic/mcp-server-iaptic) |
+| **Liveblocks MCP Server** | Real-time | Access Liveblocks real-time collaboration | - | [GitHub](https://github.com/liveblocks/mcp-server-liveblocks) |
+| **BoldSign MCP Server** | E-signature | Access BoldSign electronic signature platform | - | [GitHub](https://github.com/boldsign/mcp-server-boldsign) |
+| **Audiense Insights MCP Server** | Social Analytics | Access Audiense social media insights | - | [GitHub](https://github.com/audiense/mcp-server-audiense) |
+| **Baidu Vector Database MCP Server** | Vector Database | Access Baidu vector database for embeddings | - | [GitHub](https://github.com/baidu/mcp-server-vector-db) |
+| **Debug AI MCP** | Development | Access Debug AI development and debugging tools | - | [GitHub](https://github.com/debug-ai/mcp-server-debug) |
+| **Atla MCP Server** | Data Visualization | Access Atla data visualization platform | - | [GitHub](https://github.com/atla/mcp-server-atla) |
+| **RSS MCP Server** | Content | Access RSS feeds and content aggregation | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-rss) |
+| **Hunter MCP Server** | Email | Access Hunter email finder and verification | - | [GitHub](https://github.com/hunter-io/mcp-server-hunter) |
+| **Runbook MCP Server** | Automation | Access Runbook automation and workflows | - | [GitHub](https://github.com/runbook/mcp-server-runbook) |
+| **Dappier MCP Server** | Analytics | Access Dappier analytics and insights | - | [GitHub](https://github.com/dappier/mcp-server-dappier) |
+| **HiveFlow MCP Server** | Workflow | Access HiveFlow workflow automation | - | [GitHub](https://github.com/hiveflow/mcp-server-hiveflow) |
+| **Databutton MCP Server** | Development | Access Databutton development platform | - | [GitHub](https://github.com/databutton/mcp-server-databutton) |
+| **Qiniu MCP Server** | Cloud Storage | Access Qiniu cloud storage and CDN | - | [GitHub](https://github.com/qiniu/mcp-server-qiniu) |
+| **Codebase Context Dumper MCP** | Development | Extract and analyze codebase context | - | [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/packages/server-codebase-context) |
 
 ## 🔍 Using This Registry
 
